@@ -1,0 +1,9 @@
+.ui.segment .ui.header{
+    color: white !important;
+}
+.ui.embed {
+    background-color: black;
+}
+.ui.embed iframe{
+    border-radius: 10px;
+}

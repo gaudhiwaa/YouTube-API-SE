@@ -1,0 +1,41 @@
+.ui.segment{
+    background-color: black;
+    color: white !important;
+    padding:  0px 0 0 0;
+    margin-bottom: -20px;
+}
+.ui.segment .ui.form {
+    display: flex;
+    flex-direction: row;
+}
+.ui.segment .ui.form {
+    display: flex;
+    align-items: center;
+}
+.ui.segment .ui.form img{
+    margin-left: -30px;
+    width: 200px;
+}
+.ui.segment .ui.form input{
+    border-radius: 50px !important;
+    height: 40px;
+    max-width: 600px;
+    padding-left: 20px;
+    margin-right: 110px;
+}
+.ui.segment .ui.form button{
+    display: flex;
+    border-radius: 50px !important;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+}
+.ui.segment .ui.form button:nth-child(2){
+   background-color: red !important;
+   color: white;
+   width: 100px;
+}
+.ui.segment .ui.form  .button-list{
+    display: flex;
+}
